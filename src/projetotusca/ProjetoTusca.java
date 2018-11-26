@@ -24,7 +24,7 @@ public class ProjetoTusca {
             conexao = DriverManager.getConnection("jdbc:oracle:thin:@grad.icmc.usp.br:15215:orcl",user,pass);
         } catch (ClassNotFoundException e) {
         } catch (SQLException e) {
-            System.out.println("Não conectado");
+            System.out.println("Não conectou");
         }
             return conexao;
     }
